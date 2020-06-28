@@ -1,0 +1,88 @@
+body{
+
+	font-family: sans-serif;
+	margin: 20px;
+	padding: 0px;
+	color: black;
+	
+}	
+#top {
+	height: 80px;
+	background-color: green;
+}
+.contenedor {
+	width: 948px;
+	margin: 12 auto;
+
+}
+#logo{
+	background-image: url(imagenes/logo.png);
+	width: 458px;
+	height: 3px;
+}
+nav a{
+	margin-top: 10px;
+}
+nav a {
+	
+	text-decoration:  none;
+	color: black;
+	padding: 10px 20px;
+	
+}
+#post {
+	width: 70%;
+	float: left;
+	line-height: 1.5;
+
+
+}
+#sidebar {
+	width: 25%;
+	float: right;
+	line-height: 1.5;	
+}
+
+
+#comentarios {
+	width: 100%;
+	clear: both;
+}
+#comentarios input {
+	display: block;
+	width: 25%;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid rgb(156, 156, 156);
+}
+#comentarios input[type="submit"]{
+	width: 26.5%;
+	height:15%;
+	cursor:pointer;
+	background: #1668C4;
+	color: #eee;
+	border: none;
+}
+ 
+#comentarios textarea {
+	width: 25%;
+	height: 15%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid rgb(156, 156, 156);
+	resize: vertical;
+	max-height: 100px;
+}
+
+#footer {
+	
+	width: 100%;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 12px;
+
+
+}
